@@ -2,10 +2,26 @@
 <html>
     <head>
         <title>Hello Davinci-Coding!</title>
+        <style>
+            .clock {
+                font-size: 10em;
+                color: white;
+            }
+            .center {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+        </style>
     </head>
     <body>
-        <h3>Hello World!!</h3>
-        
+        <section class="center"> 
+            <div class="js-clock clock">
+                <h3 class="clock_text">00:00</h3>
+            </div>
+        </section>
+
         <script src="js/bg.js"></script>
+        <script src="js/clock.js"></script>
     </body>
 </html>
